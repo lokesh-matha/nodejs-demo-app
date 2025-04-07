@@ -43,4 +43,8 @@ jobs:
         with:
           context: .
           push: true
+<<<<<<< HEAD
           tags: ${{ secrets.DOCKER_USERNAME }}/node-ci-cd-demo:latest
+=======
+          tags: ${{ secrets.DOCKER_USERNAME }}/node-ci-cd-demo:latest
+>>>>>>> ce4623c (WIP: Save local changes before rebase)
