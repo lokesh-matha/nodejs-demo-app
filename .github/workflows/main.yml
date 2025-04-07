@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
@@ -23,9 +24,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: npm install
-      - run: npx jest --passWithNoTests
+      - name: Install dependencies cleanly
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install --force
+          chmod +x ./node_modules/.bin/jest
 
+      - name: Run tests
+        run: npx jest --passWithNoTests
 
   build-and-push:
     needs: test
