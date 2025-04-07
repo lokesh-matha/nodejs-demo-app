@@ -1,7 +1,7 @@
 # Node.js CI/CD Pipeline with GitHub Actions and Docker
 
-![GitHub Actions](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/YOUR_REPO/main.yml?label=CI%2FCD)
-![Docker](https://img.shields.io/docker/pulls/YOUR_DOCKER_USERNAME/node-ci-cd-demo)
+![GitHub Actions](https://img.shields.io/github/actions/workflow/status/lokesh-matha/nodejs-demo-app/main.yml?label=CI%2FCD)
+![Docker](https://img.shields.io/docker/pulls/lokeshmatha/node-ci-cd-demo)
 
 A sample Node.js application with automated CI/CD pipeline using:
 - GitHub Actions for testing and deployment
