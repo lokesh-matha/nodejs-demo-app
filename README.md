@@ -3,7 +3,6 @@
 ![GitHub Actions](https://img.shields.io/github/actions/workflow/status/lokesh-matha/nodejs-demo-app/main.yml?label=CI%2FCD)
 ![Docker](https://img.shields.io/docker/pulls/lokeshmatha/node-ci-cd-demo)
 
-<<<<<<< HEAD
 A sample Node.js application with automated CI/CD pipeline using:
 - GitHub Actions for testing and deployment
 - Docker for containerization
