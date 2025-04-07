@@ -12,12 +12,6 @@ A sample Node.js application with automated CI/CD pipeline using:
 ## 🚀 Features
 - Automated testing on every push
 - Docker image building and pushing
-- Deployment-ready containerized application
-=======
-## 🚀 Features
-- Automated testing on every push
-- Docker image building and pushing
->>>>>>> ac1866f (code deployed)
 - Node.js 18 LTS support
 
 ## 📦 Prerequisites
@@ -26,14 +20,6 @@ A sample Node.js application with automated CI/CD pipeline using:
 - GitHub account
 - Docker Hub account
 
-<<<<<<< HEAD
-## 🛠️ Setup
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
-=======
 ## 🛠️ Local Development
 
 ### Install dependencies
@@ -96,4 +82,3 @@ Workflow file: `.github/workflows/main.yml`
 
 ## 📜 License
 MIT
->>>>>>> ac1866f (code deployed)
